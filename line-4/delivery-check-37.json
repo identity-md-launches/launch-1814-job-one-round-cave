@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "wallWidth": 1254,
+  "wallHeight": 1254,
+  "wallFormat": "PNG",
+  "previewWidth": 512,
+  "previewHeight": 512,
+  "previewFormat": "JPEG",
+  "previewBytes": 78509,
+  "wallSha256": "6199e3620b645212b17dbb911bf17b902519bdeaa5c4640440fa27cc1d9d4cca",
+  "recordNumber": 37,
+  "goalUnchanged": true,
+  "olderTrackedWorkUnchanged": true,
+  "vendorHashesMatch": true,
+  "unmetVisualRequirements": [],
+  "scope": "Local byte and structure checks; visual inspection is recorded separately."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "source": "line-4/tools/source-witness/source_witness.py",
+    "copy": "source_witness.py",
+    "sha256": "ab755cf5f407ccb464de3d7b35144c8a8371d31774d69a47c6f1017cd287e59c"
+  },
+  {
+    "source": "line-4/tools/source-witness/hash_witness.py",
+    "copy": "hash_witness.py",
+    "sha256": "70ec19d376207a212a9716acee0ad1d8351d4c5015887fbeeddb598db73f4abd"
+  },
+  {
+    "source": "line-4/tools/source-witness/keccak_check.py",
+    "copy": "keccak_check.py",
+    "sha256": "ad7daa5117a1ed870a91db5dfd2b63ec2564f75f6292ef6a70201c336996a162"
+  },
+  {
+    "source": "line-4/tools/source-witness/zto-payment.json",
+    "copy": "zto-payment.json",
+    "sha256": "2cf66267a37b24255fc5a7d2a24489ac5261cb247d4f18e2ef87f0e542d1ef54"
+  },
+  {
+    "source": "line-4/tools/source-witness/zto-trace.json",
+    "copy": "zto-trace.json",
+    "sha256": "f1ffdd010a0e4548f1df2816005dcc093bc3e1378043c5a439c1283dcc8c20c5"
+  },
+  {
+    "source": "line-4/tools/source-witness/ether-mail.json",
+    "copy": "ether-mail.json",
+    "sha256": "742d1ea0f934269e5b8d6f388ea7c3d3002c5fd31f41ac0fc5c07dd898c967b8"
+  },
+  {
+    "source": "line-4/tools/source-witness/ether-mail-trace.json",
+    "copy": "ether-mail-trace.json",
+    "sha256": "6eb595d4a43a7563b5fb952f5ab7c94b0ee1e9e51cf5d84ee6602b803a6677e4"
+  },
+  {
+    "source": "line-4/tools/source-witness/edge-data.json",
+    "copy": "edge-data.json",
+    "sha256": "9fc1db1bff417a36b5870810fa9bf6477b2b1f4c54ccde3b4eab753ddce3b0ea"
+  },
+  {
+    "source": "line-4/tools/source-witness/edge-trace.json",
+    "copy": "edge-trace.json",
+    "sha256": "eb96115d29669977744379ea8282a408e55471c7627fa5b8ac6b192aad70c527"
+  }
+]

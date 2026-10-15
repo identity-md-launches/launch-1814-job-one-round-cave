@@ -1,0 +1,13 @@
+{
+  "newTests": 18,
+  "inheritedTests": 15,
+  "detachedTests": 18,
+  "newTestsPassed": true,
+  "inheritedTestsPassed": true,
+  "detachedTestsPassed": true,
+  "vendorHashesMatch": true,
+  "demoExit": 0,
+  "demoAccepted": true,
+  "networkRequired": false,
+  "limits": "Local checks only; no independent certification."
+}

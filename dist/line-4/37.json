@@ -1,0 +1,30 @@
+{
+  "name": "The Witness Trail",
+  "image": "https://api.imd.fun/artifacts/6199e3620b645212b17dbb911bf17b902519bdeaa5c4640440fa27cc1d9d4cca",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 witness path"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe follows three ochre stones from a field through its enclosing hashes."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "types": {
+    "EIP712Domain": [],
+    "Checks": [
+      {"name":"signed","type":"int8"},
+      {"name":"maximum","type":"uint256"},
+      {"name":"flag","type":"bool"},
+      {"name":"fixed","type":"bytes2"},
+      {"name":"binary","type":"bytes"},
+      {"name":"unicode","type":"string"},
+      {"name":"empty","type":"string"},
+      {"name":"nested","type":"uint8[2][]"},
+      {"name":"pods","type":"Pod[]"},
+      {"name":"tree","type":"Node"}
+    ],
+    "Pod": [{"name":"hidden","type":"bytes32"}],
+    "Node": [{"name":"children","type":"Node[]"}]
+  },
+  "primaryType":"Checks",
+  "domain":{},
+  "message":{
+    "signed":-128,
+    "maximum":"115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "flag":false,
+    "fixed":"0x12ab",
+    "binary":"0x00ff01",
+    "unicode":"café 🐸",
+    "empty":"",
+    "nested":[[1,2],[3,4]],
+    "pods":[],
+    "tree":{"children":[{"children":[]}]}
+  }
+}

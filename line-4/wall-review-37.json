@@ -1,0 +1,42 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v17.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3911963,
+    "sha256": "6199e3620b645212b17dbb911bf17b902519bdeaa5c4640440fa27cc1d9d4cca"
+  },
+  "preview": {
+    "path": "dist/line-4/37.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 78509,
+    "sha256": "44d5e9ecc70e60c8182bf42d024c2b3dbbd643cffda2400c6e0af330e4382b14"
+  },
+  "ancestorSha256": "6fdf7a75644d3d4a0865ac532945f497bbfb3dc19cf7231b44705135a1e809ee",
+  "generatedDraftSha256": "c0f90d48ce9842193200c3765698a5d7a9d03e2aea66f5812d245604005f5a05",
+  "imageTool": "installed image edit_image; explicit workspace PNG output",
+  "promptSummary": "Add a small ascending trail of three red ochre pebbles on vacant rock. Preserve cave, all ancestors, Pepe and five-digit hands. No text or new hands.",
+  "changedPixels": 2151,
+  "unchangedPixels": 1570365,
+  "additionBoundsExclusive": [
+    999,
+    883,
+    1069,
+    992
+  ],
+  "preservation": "Only generated pigment selected from draft and transferred to vacant lower-right stone. All other pixels and deep cracks remain exactly ancestral.",
+  "visualReview": "Full final PNG and decoded 512-pixel JPEG inspected. Recognizable cave Pepe, wide mouth and heavy-lidded eyes retained. Both inherited hands retain five digits each. Three red ochre pebbles on vacant lower-right stone. No new hands, writing, prohibited symbols, logos, borders or watermarks observed.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local visual review is not independent certification.",
+    "Small mark is subtle in the JPEG preview.",
+    "The draft changed surrounding stone; only selected trail pigment was retained."
+  ]
+}

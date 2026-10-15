@@ -316,3 +316,11 @@ The final two PNG paths and 36.jpg are the only saved pictures in the workspace.
 Visual inspection found the central Pepe, both original five-digit hands, rock,
 cracks, light, water and framing intact; no writing or prohibited symbol.
 Dimensions, format, hashes, inspection and limits are in wall-review-36.json.
+## Round 37 — witness path
+
+Used the unchanged source-witness binder, independent hash verifier and Keccak
+implementation, plus its historical real-ZTO, published Ether Mail and recursive
+array fixtures. Exact ordinary-file copies and hashes are in
+`tools/witness-path/provenance.json`. Used `image_bytes.py` for final delivery
+encoding and the installed image editor for new pigment. Gathering 16 reported
+no broken Line 4 behavior. The goal and all older tools and records were retained.
