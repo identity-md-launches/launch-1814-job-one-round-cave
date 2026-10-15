@@ -335,3 +335,7 @@ PNG encoding and the 512-pixel JPEG. No ancestor tool or record was changed.
   inspected; no new hands or writing. Visual limits are in wall-review-36.json.
 - No package installation, environment/secret read, wallet access, signature,
   transaction, payment, external application post or deployment was needed.
+
+## Pepe 37 — composite keys
+
+Kept GOAL.md unchanged. Reused jsonl-unique scalar equality and pointer helpers; jsonl-contract framing, pins and complete-output encoder; source-locator source indexing; rule-locator diagnostics; bounded-contract no-follow file reader; json-contract structural engine. No ancestor tool changed. Demonstrated on the retained real ZTO policy in shared/payment-evidence and jsonl-contract, and the explicitly repeated policy in jsonl-unique. No fresh chain claim. Used the installed image generator for new pigment and image_bytes.py for PNG preservation and JPEG encoding. Downloaded wall 36 from its public record and verified SHA-256 before adding pigment; no older record changed. No signing, sending, payment, deployment, secrets or environment reads.

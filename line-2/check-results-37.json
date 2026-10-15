@@ -1,0 +1,52 @@
+{
+  "suites": [
+    {
+      "path": "line-2/tools/jsonl-composite/test_check.py",
+      "tests": 21,
+      "passed": true
+    },
+    {
+      "path": "line-2/tools/jsonl-unique/test_check.py",
+      "tests": 19,
+      "passed": true
+    },
+    {
+      "path": "line-2/tools/jsonl-contract/test_check.py",
+      "tests": 18,
+      "passed": true
+    }
+  ],
+  "examples": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/jsonl-composite/check.py",
+        "shared/payment-evidence/policy.contract.json",
+        "line-2/tools/jsonl-contract/zto-policy.jsonl",
+        "--key",
+        "/token",
+        "/tx"
+      ],
+      "exit": 0,
+      "valid": true,
+      "key_errors": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/jsonl-composite/check.py",
+        "shared/payment-evidence/policy.contract.json",
+        "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+        "--key",
+        "/token",
+        "/tx"
+      ],
+      "exit": 1,
+      "valid": false,
+      "key_errors": 1
+    }
+  ],
+  "authority": "local observations only"
+}

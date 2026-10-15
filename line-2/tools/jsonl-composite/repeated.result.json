@@ -1,0 +1,223 @@
+{
+  "valid": false,
+  "complete": true,
+  "status": "rejected",
+  "structural": {
+    "valid": true,
+    "complete": true,
+    "status": "valid",
+    "summary": {
+      "rows": 2,
+      "passed": 2,
+      "violated": 0,
+      "malformed": 0,
+      "structural_errors": 0
+    },
+    "sources": {
+      "contract": {
+        "file": "shared/payment-evidence/policy.contract.json",
+        "bytes": 705,
+        "sha256": "9a8fb8297b152df3532caabf62af9c3ea316e5f51fbdbd96dbb0950a09dca47b"
+      },
+      "document": {
+        "file": "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+        "bytes": 448,
+        "sha256": "8a74ab11382a866387674a0bb0a299736081753a1b39ed24643d5688b608f14d"
+      }
+    },
+    "coordinates": {
+      "pointers": "relative to the JSON value on the reported row",
+      "lines": "one-based physical LF-delimited file lines",
+      "columns": "one-based Unicode code points, not display cells or UTF-16",
+      "offsets": "zero-based whole-file UTF-8 bytes and Unicode code points; end exclusive",
+      "row_bytes": "includes CR when present; excludes the LF delimiter",
+      "missing": "missing values anchor the containing object; no invented value token"
+    },
+    "rows": [
+      {
+        "line": 1,
+        "byte_start": 0,
+        "byte_end": 223,
+        "sha256": "da33ae876871de4e8492f6bfbae8d623aa89b2bb83cc885a7f423c4d4941c096",
+        "valid": true,
+        "status": "valid",
+        "errors": []
+      },
+      {
+        "line": 2,
+        "byte_start": 224,
+        "byte_end": 447,
+        "sha256": "da33ae876871de4e8492f6bfbae8d623aa89b2bb83cc885a7f423c4d4941c096",
+        "valid": true,
+        "status": "valid",
+        "errors": []
+      }
+    ]
+  },
+  "composite_uniqueness": {
+    "pointers": [
+      "/token",
+      "/tx"
+    ],
+    "valid": false,
+    "checked_rows": 2,
+    "distinct_keys": 1,
+    "skipped_malformed_lines": [],
+    "ineligible_lines": [],
+    "error_count": 1,
+    "errors": [
+      {
+        "line": 2,
+        "components": [
+          {
+            "pointer": "/token",
+            "document_source": {
+              "file": "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+              "present": true,
+              "value": {
+                "start": {
+                  "line": 2,
+                  "column": 182,
+                  "char_offset": 405,
+                  "byte_offset": 405
+                },
+                "end": {
+                  "line": 2,
+                  "column": 187,
+                  "char_offset": 410,
+                  "byte_offset": 410
+                }
+              },
+              "key": {
+                "start": {
+                  "line": 2,
+                  "column": 174,
+                  "char_offset": 397,
+                  "byte_offset": 397
+                },
+                "end": {
+                  "line": 2,
+                  "column": 181,
+                  "char_offset": 404,
+                  "byte_offset": 404
+                }
+              }
+            }
+          },
+          {
+            "pointer": "/tx",
+            "document_source": {
+              "file": "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+              "present": true,
+              "value": {
+                "start": {
+                  "line": 2,
+                  "column": 7,
+                  "char_offset": 230,
+                  "byte_offset": 230
+                },
+                "end": {
+                  "line": 2,
+                  "column": 75,
+                  "char_offset": 298,
+                  "byte_offset": 298
+                }
+              },
+              "key": {
+                "start": {
+                  "line": 2,
+                  "column": 2,
+                  "char_offset": 225,
+                  "byte_offset": 225
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6,
+                  "char_offset": 229,
+                  "byte_offset": 229
+                }
+              }
+            }
+          }
+        ],
+        "kind": "duplicate_key",
+        "first": {
+          "line": 1,
+          "components": [
+            {
+              "pointer": "/token",
+              "document_source": {
+                "file": "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 1,
+                    "column": 182,
+                    "char_offset": 181,
+                    "byte_offset": 181
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 187,
+                    "char_offset": 186,
+                    "byte_offset": 186
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 1,
+                    "column": 174,
+                    "char_offset": 173,
+                    "byte_offset": 173
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 181,
+                    "char_offset": 180,
+                    "byte_offset": 180
+                  }
+                }
+              }
+            },
+            {
+              "pointer": "/tx",
+              "document_source": {
+                "file": "line-2/tools/jsonl-unique/repeated-policy.jsonl",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 1,
+                    "column": 7,
+                    "char_offset": 6,
+                    "byte_offset": 6
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 75,
+                    "char_offset": 74,
+                    "byte_offset": 74
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 1,
+                    "column": 2,
+                    "char_offset": 1,
+                    "byte_offset": 1
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 6,
+                    "char_offset": 5,
+                    "byte_offset": 5
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "equality": "ordered tuple of exact decimal numbers or typed strings, booleans and null; all components must match"
+  }
+}

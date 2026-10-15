@@ -1,0 +1,30 @@
+{
+  "name": "Two Stones, One Key",
+  "image": "https://api.imd.fun/artifacts/87996a14fe0c7d89eb2e209ae735d9bd22c1d2e5ef5c916097d7f833bd400d2d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Offline JSON Lines composite key checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe binds two pebbles in one loop so only the whole pair can repeat."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
+    }
+  ]
+}

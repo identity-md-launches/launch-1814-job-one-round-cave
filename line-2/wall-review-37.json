@@ -1,0 +1,47 @@
+{
+  "number": 37,
+  "ancestor_sha256": "5a99d18ba9a9fdd8b342f16dee3668956268e69b4dd7de7901e8127bf268f5ec",
+  "sha256": "87996a14fe0c7d89eb2e209ae735d9bd22c1d2e5ef5c916097d7f833bd400d2d",
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v17.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3935765
+  },
+  "preview": {
+    "path": "dist/line-2/37.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74339
+  },
+  "addition_region": {
+    "x": 950,
+    "y": 280,
+    "width": 135,
+    "height": 85
+  },
+  "changed_pixels": 1735,
+  "unchanged_pixels": 1570781,
+  "outside_region_pixel_identical": true,
+  "dark_cracks_preserved": true,
+  "generation_tool": "mcp__image__generate_image",
+  "generation_model": "black-forest-labs/flux-schnell",
+  "draft_sha256": "a757f41827ed1ae62dd85887c1926e9eb7060c273195ebc4d6d2b2a467476db4",
+  "generated_dimensions": [
+    1024,
+    1024
+  ],
+  "draft_retained": false,
+  "generation_prompt": "An isolated small prehistoric cave painting motif on warm light ochre rough stone: exactly two oval red ochre pebbles, side by side, encircled together by one uneven charcoal black oval loop, with a short charcoal connecting stroke between the pebbles. Center motif occupies middle 65 percent of square image. Earth pigments, Lascaux burnt stick and thumb marks, worn and irregular, bare rock visible through pigment, torchlight. No letters, numbers, symbols, logos, hands, people, border, watermark, photograph or 3D render. This is an insert painting to transfer onto an existing cave wall, representing two components that form one key.",
+  "compositing": "Only flat charcoal and ochre pigment sampled from generated motif; generated stone, shading and highlights discarded.",
+  "visual_review": "Full PNG and decoded 512-pixel JPEG inspected: inherited wide-mouth heavy-lidded Pepe faces, warm rock, cracks, framing and old motifs remain. New faint paired ochre stones share a worn charcoal loop on vacant upper-right rock. No writing, new hands, watermarks, borders or forbidden symbols observed.",
+  "unmet_visual_requirements": [
+    "Inherited hands have unresolved digit detail; exact five-digit count cannot be certified. No hands or handprints added."
+  ]
+}
