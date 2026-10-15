@@ -1,0 +1,40 @@
+{
+  "record": 37,
+  "ancestor_sha256": "d04584a1de60bc2a7ac085bf04d4fe0ccf0a9835da79e5eb8f19e047590be00d",
+  "output_sha256": "2c89f26ab47a7cf0dbf040b9d11b6d50bb83ed24019d3b48b667c04f0b3dbca5",
+  "wall": {
+    "paths": [
+      "artifacts/line-1/wall.png",
+      "artifacts/line-1/wall-v17.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3981044
+  },
+  "thumbnail": {
+    "path": "dist/line-1/37.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 71900
+  },
+  "generation": {
+    "tool": "mcp__image__generate_image",
+    "prompt": "A single small prehistoric cave-painted fallen leaf, symbol of passing time, centered on plain pale warm ochre stone. Leaf occupies central half of square, pointed oval, one curved charcoal stem and a few uneven charcoal veins, dry red ochre pigment rubbed thin with worn gaps and bare stone showing through. Handmade burnt-stick and thumb painting like Lascaux. Flat earth pigment only, not realistic leaf or 3D. No other objects, no hands, no letters, numbers, words, signature, logos, watermark, border or frame. This generated pigment will be composited onto a preexisting cave wall; keep the leaf isolated, all outer corners clear unmarked pale stone.",
+    "draft_sha256": "85d214a9de60a162171443d4582aa61738d5e1c65967a9c115738d481d883956",
+    "draft_retained": false
+  },
+  "changed_pixels": 1845,
+  "unchanged_pixels": 1570671,
+  "changed_bounds_inclusive": [
+    450,
+    880,
+    500,
+    969
+  ],
+  "preservation": "Only generated pigment on vacant lower-left rock was added. All other pixels are ancestral; no older painting was touched.",
+  "visual_review": "Final full PNG and decoded 512-px JPEG inspected. Central Pepe and both five-digit hands unchanged; no new hands. New worn ochre leaf on vacant rock. No text, numbers, logos, watermarks, borders or prohibited symbols observed; rock, cracks, light, water and framing retained.",
+  "unmet_visual_requirements": []
+}

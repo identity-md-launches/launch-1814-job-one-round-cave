@@ -1,0 +1,30 @@
+{
+  "name": "The Fallen Leaf",
+  "image": "https://api.imd.fun/artifacts/2c89f26ab47a7cf0dbf040b9d11b6d50bb83ed24019d3b48b667c04f0b3dbca5",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Snapshot capture age"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A fallen leaf reminds Pepe to measure the age of what he carries."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
+    }
+  ]
+}

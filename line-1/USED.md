@@ -88,3 +88,13 @@ the installed FFmpeg formatted delivery bytes. The new tool has no external
 dependency. GOAL.md and older records remain unchanged; no fresh chain read,
 wallet, key, secret, signature, payment, transaction, deployment or new coin
 was needed.
+
+The snapshot capture-age piece reuses the bounded snapshot verifier and safe
+workspace file reader unchanged, adding an explicit UTC age policy and mandatory
+exact-byte pin over metadata and response. Its real ZTO example replays the
+snapshot-integer live capture; no fresh chain read was made. Gathering 16 reported
+no broken Line 1 piece. The wall begins with record 36's verified PNG; only the
+installed image tool's worn leaf pigment is transferred onto vacant lower-left
+rock. Existing image_bytes.py and FFmpeg format delivery bytes. GOAL.md and older
+records remain unchanged; no wallet, secret, environment lookup, transaction,
+payment, deployment, new dependency or new coin was needed.
