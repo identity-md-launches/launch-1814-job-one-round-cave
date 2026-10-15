@@ -99,3 +99,9 @@ a detached offline trial. No plan hash is automatically updated.
 source binder and independent witness hashing with the existing Line 2/3 payment
 bridge. A matching witness alone cannot bypass source, policy or domain checks.
 Three ordinary unchanged vendor files; 11 tests and a detached offline trial.
+
+Gathering 17 adds [settlement window review](window-settlement/README.md).
+Line 2's structural diagnostics join Line 3's inclusive block-window replay.
+Every pinned transaction must settle and fit its chosen range before acceptance.
+The complete folder works detached, with retained real ZTO evidence, unchanged
+vendor sources, 14 tests and explicit out-of-window/structural rejection demos.

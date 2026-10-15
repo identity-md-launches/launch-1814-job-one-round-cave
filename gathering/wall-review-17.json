@@ -1,0 +1,37 @@
+{
+  "ancestorSha256": "6bfc80eca4d2ffb9fcbcd82357f50d489e01245b67658c272cb6e7fabd679d1a",
+  "wallSha256": "8d78b79be22f1b0544c4d2260fd852a777f228fd1df73702ec104e8d0493eb8d",
+  "generatedDraftSha256": "dc267adefb1ef17475922ac334cfad5aa07cce9c7231bcf8973f8e7fd72c1b3e",
+  "generatedDraftRetained": false,
+  "imageTool": "image_gen.imagegen",
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "additionRectangle": [
+    806,
+    451,
+    141,
+    79
+  ],
+  "changedPixels": 4566,
+  "unchangedPixels": 1567950,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "newHands": 0,
+  "newHandprints": 0,
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [],
+  "method": "Only image-tool fish pigment transferred onto vacant ancestral stone; generated stone discarded.",
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76251,
+  "visualReview": "Added worn ochre fish with charcoal eye on vacant rock beside central Pepe. Existing frogs, five-stick basket mark, pigments, cracks, water and framing remain ancestral. No new hands or handprints; no new digits to count. No text, numbers, border, logo, real person or prohibited symbol observed.",
+  "prompt": "Preserve the ancestral square cave and every mark, rock, crack, warm light, water and framing. Add only one small rough red ochre left-facing fish with a charcoal eye on vacant rock right of central Pepe. Earth pigments only, bare rock through worn strokes. No new hands, words, numbers, logos, borders or erasure.",
+  "reviewLimit": "Visual inspection is a local observation, not independent certification. Photographic-looking ancestral rock was retained to obey preservation."
+}

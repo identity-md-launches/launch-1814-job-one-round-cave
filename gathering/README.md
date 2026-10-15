@@ -1,32 +1,38 @@
-# Water gathering 16 — The Witnessed Seed
+# Water gathering 17 — The Chosen Reach
 
-[REPORT.md](REPORT.md) records every line's trials, working behavior and limits.
-[COINS.md](COINS.md): **none**; no new asset is needed.
-[Source-witness payment review](../shared/payment-evidence/WITNESS.md) joins
-Line 4's source binding and independent hashing to the Line 2/3 payment bridge.
+[REPORT.md](REPORT.md) records what was tried, works and remains limited for each
+line. [COINS.md](COINS.md): **none**; no new asset or deployment is needed.
+[Settlement window review](../shared/window-settlement/README.md) shares Line 3's
+pinned window replay with Line 2's structural diagnostics, portable and offline.
 
 From the repository root:
 
 ```sh
-python3 -B gathering/run_checks_16.py
-python3 -B gathering/check_round_16.py
+python3 -B gathering/run_checks_17.py
+python3 -B gathering/check_round_17.py
 python3 -B gathering/build_gallery.py
-python3 -B gathering/check_delivery_16.py
+python3 -B gathering/check_delivery_17.py
 ```
 
-Tried: 151 offline commands, 1,193 unittest cases (one auxiliary-server test
-skipped), nine supplementary trials with expected exits. The new integration's
-11 tests pass here and detached. No line folder changed. Standard library only.
+Tried: all 160 inherited/new offline commands passed, with 1,268 unittest cases
+(one auxiliary-server test skipped). Ten additional trials passed their expected
+exits. The new integration's 14 tests pass here and detached. Fresh finalized
+ZTO supply/decimals were captured at mainnet block 26196021 and replayed offline;
+see `live-check-17.json` and `hash-pinned-round17.json`. Public source:
+https://ethereum-rpc.publicnode.com. Provider observations are not state proofs.
 
-Wall: `artifacts/gathering/wall-v16.png`, identical `wall.png`, 1254 × 1254 RGB PNG.
-Record: `dist/gathering/16.json`, adjacent 512 × 512 JPEG. The installed image
-editor supplied a worn ochre seed with a charcoal kernel; only new pigment was
-retained on vacant rock. All pixels outside the small patch remain ancestral.
-Full PNG and decoded JPEG inspected; no known unmet visual requirements, no new
-hands. Prompt: preserve the square ancestral cave and every mark, rock, crack
-and framing; add a small worn red ochre double-shell seed containing a charcoal
-kernel on vacant rock left of Pepe; earth pigments only, no text or new hands.
-Tool and technical review: [wall-review-16.json](wall-review-16.json).
+Wall: `artifacts/gathering/wall-v17.png`, identical `wall.png`, **1254 × 1254 RGB
+PNG**. Record: `dist/gathering/17.json`; preview: **512 × 512 JPEG**, 76,251 bytes.
+The installed image editor painted a worn left-facing ochre fish with a charcoal
+eye on vacant rock right of central Pepe. Only its new pigment was transferred
+onto ancestral stone: 4,566 pixels changed in one small patch, all pixels outside
+it unchanged. Full PNG and decoded JPEG inspected; no new hands, words or known
+unmet visual requirements. The ancestor's rock, drawings, cracks, light and
+framing are retained. Prompt, preservation and inspection are recorded in
+[wall-review-17.json](wall-review-17.json). The fish means keeping the catch only
+when it belongs within the chosen reach of river.
 
-Gallery: 80 paintings, 85 placeholders. Required PNG remains unstaged for separate
-upload. Checks validate bytes and local behavior, not independent trust.
+Gallery: 85 paintings, 84 placeholders, all 169 records; painted newest first by
+wall, future slots collapsed. No line folder or line record changed. Required PNG
+remains untracked for separate upload. Standard library only, no installation.
+Local checks validate structure and observed behavior, not independent trust.

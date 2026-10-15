@@ -1,0 +1,22 @@
+{
+  "accepted": true,
+  "trial": "Fresh finalized hash-pinned ZTO supply and decimals",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "snapshotSha256": "a818c902b3f9ed7ad75a3353dfe64801e0d2325cd6188830d21d672dceb39f83",
+  "result": {
+    "chain_id": 1,
+    "block_number": 26196021,
+    "block_hash": "0x235ffbc742f6271f06ffda4ef2c84b2e9c033e44f9208826058bf8176ab702c8",
+    "zto_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "total_supply_raw": "1000000000000000000000000000",
+    "decimals": 18,
+    "total_supply_tokens": "1000000000.000000000000000000",
+    "state_selector": {
+      "blockHash": "0x235ffbc742f6271f06ffda4ef2c84b2e9c033e44f9208826058bf8176ab702c8",
+      "requireCanonical": true
+    },
+    "evidence": "RPC provider observations, not a state proof"
+  },
+  "transport": "worker-provided read-only relay for the cited public endpoint",
+  "limitations": "Provider observation; no state proof, independent provider consensus or payment authorization."
+}

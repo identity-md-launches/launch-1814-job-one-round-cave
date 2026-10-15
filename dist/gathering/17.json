@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Chosen Reach",
+  "image": "https://api.imd.fun/artifacts/8d78b79be22f1b0544c4d2260fd852a777f228fd1df73702ec104e8d0493eb8d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Settlement window review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe keeps the catch only when it belongs within the chosen reach of river."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

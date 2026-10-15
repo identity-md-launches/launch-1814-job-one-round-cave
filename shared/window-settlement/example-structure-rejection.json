@@ -1,0 +1,19 @@
+{
+  "accepted": false,
+  "state": "structural_review_required",
+  "actualPlanSha256": "f61fcf32a07a00eadca6c8a71d6e51342b20fc7ae5d04ddf8876a309d533eec2",
+  "expectedPlanSha256": "f61fcf32a07a00eadca6c8a71d6e51342b20fc7ae5d04ddf8876a309d533eec2",
+  "evidenceChecked": false,
+  "windowChecked": false,
+  "limitations": "Historical provider assertions, not consensus, trie or inter-block ancestry proofs. Windows use inclusive Ethereum block heights, not timestamps, elapsed seconds or a contract-specific deadline. No current freshness, payment amount, authorization or persistent ledger follows. Retain the full plan hash independently; replacing both plan and expected hash defeats the pin.",
+  "structure": {
+    "valid": false,
+    "diagnostics": [
+      {
+        "path": "/windows/1/notBeforeBlock",
+        "rule": "type",
+        "message": "expected integer"
+      }
+    ]
+  }
+}

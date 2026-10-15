@@ -29,7 +29,7 @@ def card(path, record):
     thumbnail = preview.relative_to(DIST).as_posix() if not pending and preview.is_file() else image
     return (f'<article class="card {"pending" if pending else "painted"}">'
             f'<a class="picture" href="{esc(image)}" aria-label="{esc(label)}">'
-            f'<img src="{esc(thumbnail)}" width="512" height="512" loading="lazy" '
+            f'<img src="{esc(thumbnail)}" loading="lazy" '
             f'alt="{esc(label if pending else values.get("Meaning", label))}"></a>'
             f'<div class="caption"><h3>{esc(label)}</h3>'
             f'<p>{esc("A future Pepe will leave this mark." if pending else values.get("Meaning", ""))}</p>'
