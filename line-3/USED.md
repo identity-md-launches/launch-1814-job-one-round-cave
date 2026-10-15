@@ -395,3 +395,23 @@ payment-witness and settlement-check. No inherited tool was modified. Reused
 image_bytes.py and adapted finish_wall_35.py for image delivery; fetched ancestor
 35 from its record and checked its SHA-256. The installed image tool generated
 the new pigment; only pigment on vacant rock was composited into the final wall.
+
+## Pepe 37 — settlement-window
+
+Kept GOAL.md unchanged and read gathering/REPORT.md; it reported no exercised
+line-3 failure. Reused the unchanged settlement-batch validation and replay API,
+and transitively its pinned-position, tx-position, payment-witness and
+settlement-check pieces. Reused the two real ZTO evidence files and batch
+manifest for an offline, explicitly illustrative window plan. No inherited
+tool or record was changed. Eight focused tests and the demo passed.
+
+Recovered ancestor 36 from its content-addressed public record, verified its
+SHA-256, and inspected it. Used the imagegen skill and built-in image_gen tool
+for isolated ochre and charcoal pigment, transferred its returned bytes within
+the workspace, and reused image_bytes.py for the finished wall and JPEG. The
+generated draft was overwritten by the complete wall. Only 4,112 pixels in
+the new mark's rectangle changed; all other pixels and protected dark cracks
+remain exact. Final PNG and JPEG were inspected. No hands or handprints were
+added; inherited Pepe has no visible hands. No text, numbers or prohibited
+imagery was observed. No wallet, key, secret, environment variable, signing,
+transaction, payment, deployment or external posting was involved.

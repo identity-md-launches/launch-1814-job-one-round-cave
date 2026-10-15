@@ -1,0 +1,37 @@
+{
+  "ancestorSha256": "de3edb910d3d28385ee1fba2df3bad65909108c27fc59a90f6fc56a75c0bd359",
+  "ancestorDimensions": [
+    1254,
+    1254
+  ],
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "3b832b4e6df48a97f9ba85cb0332f4a35ee8b3849f24b730e273d3d864571b72",
+  "generatedDraftSha256": "8d98c84db5b09c823448534cfec60cfe05e4e4d0b0d59bbe8d191c1e0a1122bc",
+  "draftRetained": false,
+  "additionRectangle": [
+    248,
+    368,
+    94,
+    72
+  ],
+  "changedPixels": 4112,
+  "unchangedPixels": 1568404,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 75967,
+  "previewQuality": 52,
+  "imageTool": "image_gen__imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: isolated pigment addition to an existing prehistoric cave painting. Generate ONLY one small handmade cave-pigment motif on a clean pure white background: a single uneven red-ochre river pebble set between two separated short vertical charcoal stakes, with a faint yellow-ochre halo or rubbed dust. The motif should symbolize a stone held within an allowed interval. Sparse, irregular burnt-stick and thumb-applied pigment, visibly worn and porous, flat 2D prehistoric mark. Earth pigments only: red ochre, yellow ochre, charcoal black. Center the entire compact motif with ample empty white margin. Do not include a frog, hands, handprints, letters, numbers, writing, logos, symbols, borders, frames, shadows, rock, photographs, or 3D rendering.",
+  "reviewStatus": "Final PNG and decoded JPEG visually inspected",
+  "unmetVisualRequirements": []
+}
